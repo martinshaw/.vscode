@@ -45,11 +45,30 @@
     "editor.fontFamily": "Fira Code",
     "editor.lineNumbers": "off",
     "editor.fontLigatures": false,
-    "workbench.colorCustomizations": {}
+    "workbench.colorCustomizations": {},
+  },
+
+  // Formatting using the 'Prettier' extension
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
   },
 
   // Others
 
   "git.autofetch": true,
-  "extensions.ignoreRecommendations": false
+  "extensions.ignoreRecommendations": false,
 }

@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    
+
     // Recommended for all new projects
 
     "aaron-bond.better-comments",
@@ -12,6 +12,7 @@
     "ms-vscode-remote.remote-ssh",
     "ms-vscode-remote.remote-ssh-edit",
     "ms-vscode.remote-explorer",
+    "esbenp.prettier-vscode",
 
     // For web development projects
 
@@ -38,7 +39,7 @@
 
 		"nicoespeon.slides",
 		"github.github-vscode-theme"
-    
+
   ]
 }
   
