@@ -1,22 +1,44 @@
 {
-    "recommendations": [
-      "dbaeumer.vscode-eslint",
-      "epivision.vscode-file-header",
-      "aaron-bond.better-comments",
-      "sleistner.vscode-fileutils",
-      "mikestead.dotenv",
-      "editorconfig.editorconfig",
-      "tamasfe.even-better-toml",
-      "redhat.vscode-xml",
-      "redhat.vscode-yaml",
-      "github.vscode-pull-request-github",
-      "ms-vsliveshare.vsliveshare",
-      "ms-vscode-remote.remote-ssh",
-      "ms-vscode-remote.remote-ssh-edit",
-      "ms-vscode.remote-explorer",
-      "syler.sass-indented",
-      "tomoki1207.pdf",
-      "planbcoding.vscode-react-refactor",
-    ],
-  }
+  "recommendations": [
+    
+    // Recommended for all new projects
+
+    "aaron-bond.better-comments",
+    "sleistner.vscode-fileutils",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode.remote-explorer",
+
+    // For web development projects
+
+    "dbaeumer.vscode-eslint",
+    "tamasfe.even-better-toml",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "syler.sass-indented",
+    "tomoki1207.pdf",
+
+    // For react projects
+
+    "planbcoding.vscode-react-refactor",
+
+    // For identifying myself in the code files
+
+    "epivision.vscode-file-header",
+
+    // For chrome extension development
+
+    "aaravb.chrome-extension-developer-tools",
+
+    // For giving presentations using the 'Slides' extension
+
+		"nicoespeon.slides",
+		"github.github-vscode-theme"
+    
+  ]
+}
   

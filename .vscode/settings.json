@@ -1,34 +1,55 @@
 {
+  // For the 'Power Header' extension
+
   "[php]": {
-    "powerHeader.template": "<?php\\n/**\\n * All Rights Reserved, (c) $CURRENT_YEAR CodeAtlas LTD.\\n * \\n * Author: <author> (<email>)\\n * File Name: $TM_FILENAME\\n * Created:  !created_date!\\n * Modified: !modified_date!\\n * \\n * Description: ${1:description}\\n */\\n",
+    "powerHeader.template": "<?php\\n/**\\n * All Rights Reserved, (c) $CURRENT_YEAR <company>\\n * \\n * Author: <author> (<email>)\\n * File Name: $TM_FILENAME\\n * Created:  !created_date!\\n * Modified: !modified_date!\\n * \\n * Description: ${1:description}\\n */\\n",
     "powerHeader.commentMode": "raw",
-    "powerHeader.update.enable": "save",
+    "powerHeader.update.enable": "save"
   },
   "powerHeader.autoInsert.enable": true,
   "powerHeader.autoInsert.allow": "none",
   "powerHeader.autoInsert.languages": [
-      "plaintext",
-      "Log",
-      "php",
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact"
+    "plaintext",
+    "Log",
+    "php",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
   ],
   "powerHeader.commentMode": "block",
   "powerHeader.newLines": 1,
-  "powerHeader.template": "\\nAll Rights Reserved, (c) $CURRENT_YEAR CodeAtlas LTD.\\n\\nAuthor: <author> (<email>)\\nFile Name: $TM_FILENAME\\nCreated:  !created_date!\\nModified: !modified_date!\\n\\nDescription: ${1:description}\\n",
+  "powerHeader.template": "\\nAll Rights Reserved, (c) $CURRENT_YEAR <company>\\n\\nAuthor: <author> (<email>)\\nFile Name: $TM_FILENAME\\nCreated:  !created_date!\\nModified: !modified_date!\\n\\nDescription: ${1:description}\\n",
   "powerHeader.variables": [
-      "<author>='Martin Shaw'",
-      "<email>=\"developer@martinshaw.co\"",
-      "!created_date!=new Date().toISOString()",
-      "!modified_date!=new Date().toISOString()"
+    
+    // Update these variables to your own details
+    
+    "<author>='Martin Shaw'",
+    "<email>=\"developer@martinshaw.co\"",
+    "<company>='CodeAtlas LTD.'",
+    "!created_date!=new Date().toISOString()",
+    "!modified_date!=new Date().toISOString()"
   ],
   "powerHeader.update.enable": "manual",
-  "powerHeader.update.content": [
-      "Modified:\\s+(.+)=!modified_date!"
-  ],
+  "powerHeader.update.content": ["Modified:\\s+(.+)=!modified_date!"],
   "editor.stickyScroll.enabled": true,
+
+  // For the 'Slides' extension
+
+  "slides.folder": ".slides/demo",
+  "slides.previewMarkdownFiles": true,
+  "slides.vscodeSettings": {
+    "markdown.preview.fontSize": 24,
+    "window.zoomLevel": 1.2,
+    "workbench.colorTheme": "GitHub Dark High Contrast",
+    "editor.fontFamily": "Fira Code",
+    "editor.lineNumbers": "off",
+    "editor.fontLigatures": false,
+    "workbench.colorCustomizations": {}
+  },
+
+  // Others
+
   "git.autofetch": true,
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": false
 }
