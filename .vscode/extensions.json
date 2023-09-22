@@ -1,6 +1,5 @@
 {
   "recommendations": [
-
     // Recommended for all new projects
 
     "aaron-bond.better-comments",
@@ -37,9 +36,7 @@
 
     // For giving presentations using the 'Slides' extension
 
-		"nicoespeon.slides",
-		"github.github-vscode-theme"
-
+    "nicoespeon.slides",
+    "github.github-vscode-theme"
   ]
 }
-  
