@@ -1,4 +1,6 @@
 {
+  // @see https://github.com/martinshaw/dotfiles-for-new-projects
+
   // For the 'Power Header' extension
 
   "[php]": {
@@ -69,5 +71,5 @@
 
   "git.autofetch": true,
   "extensions.ignoreRecommendations": false,
-  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.enabled": true
 }
