@@ -31,7 +31,6 @@
   ],
   "powerHeader.update.enable": "manual",
   "powerHeader.update.content": ["Modified:\\s+(.+)=!modified_date!"],
-  "editor.stickyScroll.enabled": true,
 
   // For the 'Slides' extension
 
@@ -69,5 +68,6 @@
   // Others
 
   "git.autofetch": true,
-  "extensions.ignoreRecommendations": false
+  "extensions.ignoreRecommendations": false,
+  "editor.stickyScroll.enabled": true,
 }
